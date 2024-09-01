@@ -1,0 +1,46 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+body {
+    background-color: #fffbe6; /* Off-white background */
+    color: #333;
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh; /* Ensure the body takes at least full viewport height */
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    background-color: #ffd700; /* Kuning */
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #333 !important;
+}
+.navbar-toggler-icon {
+    color: #333 !important;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: #fffbe6; /* Putih kecoklatan */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+.card-text {
+    color: #666;
+}
